@@ -1,0 +1,50 @@
+form {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px;  
+    border: 1px solid #ccc;
+  }  
+  
+  label {
+    display: block; 
+    margin: 10px 0;
+  }
+  
+  input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 20px;
+    background: #1a1a1a; 
+    color: white;  
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .links a {
+    color: #1a1a1a;
+  }
+
+  .inline-div {
+    display: table;
+    text-align:center; 
+    width:100%;
+  }
+  
+  h1
+  {
+    display:table-cell;
+    width:50%;
+  }
+  
+

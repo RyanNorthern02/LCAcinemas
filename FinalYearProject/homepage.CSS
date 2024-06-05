@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-item {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #424242;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.movie-item img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.movie-item img:hover {
+    transform: scale(1.1);
+}
+
+.movie-item h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-container input[type=text] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #646464;
+    border-radius: 2px;
+}
+
+.search-container input[type=submit] {
+    padding: 10px 20px;
+    background-color: #474040;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin: 10px; /* Add margin between buttons */
+  }
+.links a {
+    color: #fdfafa;
+  }
+  
+.logo {
+    width: 100px; 
+    height: 100px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.movie {
+    margin-bottom: 20px;
+}
+.movie h2 {
+    margin: 0;
+}
+
+.carousel-item img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-item :active{
+    height: 300px;
+    object-fit: cover;
+}
+
+.search-form {
+    margin-left: auto;
+}
+
+.search-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media img {
+    width: 50px;  /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+}
+
+
