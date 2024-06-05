@@ -2,7 +2,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-$stripe_secret_key = "sk_test_51P19QjKpLYVm2iLC65K2mV6YgVMEPE0rsk4UPgvQp8hefk1GevWowwwnjpNRvEoEZiubDIaDzPKzSWl4kig4Q4gw00KIeI8uuG";
+$stripe_secret_key = "your secret stripe key";
 
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
