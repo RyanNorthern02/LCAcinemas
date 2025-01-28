@@ -46,7 +46,7 @@ $price = isset($_SESSION["price"]) ? $_SESSION["price"] : "0.00";
    </form>
     <script>
     // Creating a Stripe client.
-    var stripe = Stripe('pk_test_51P19QjKpLYVm2iLCDV3HGOliVRmSONMnR9xJ9Gr4Pa8xeBICqV3c27dwx8jwbBIEqMLCz6S41587NWTHd4LuKewf00Bq4GwWRw');
+    var stripe = Stripe('Your API Key');
     var elements = stripe.elements();
 
     // Custom styling from stripe
